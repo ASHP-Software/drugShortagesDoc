@@ -52,7 +52,7 @@ A drug shortage bulletin that holds all relevant information.
 
 * **updateHistory**: String - Human readable update history.
 
-## Sample response of Drug shortage object
+## Sample response of a drug shortage object
 ---
 * route: https://ahfs.firebaseio.com/drugShortages/101/latest.json
 * response:
