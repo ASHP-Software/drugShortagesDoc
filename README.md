@@ -48,7 +48,7 @@ A drug shortage bulletin that holds all relevant information.
 
 * **shortageVersion**: String - Revision version of this shortage. This can be converted to an Integer. 
 
-* **updatedAt**: Int - Linux epoch timestamp in milliseconds of the last update. This is the best field for time based sorting.
+* **updatedAt**: Int - Linux epoch timestamp in **milliseconds** of the last update. This is the best field for time based sorting. You may need to multiply or divide by 1000 if your system keeps Epoch time in seconds instead of milliseconds.
 
 * **updateHistory**: String - Human readable update history.
 
