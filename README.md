@@ -56,8 +56,10 @@ A drug shortage bulletin that holds all relevant information.
 ---
 * route: https://ahfs.firebaseio.com/drugShortages/101/latest.json
 * response value:
-
+```javascript
 {"affectedProduct":[{"NDC":"17478-0934-01","RXCUI":"966571","discontinued":"true","textDescription":"Hydralazine injection, Akorn, 20 mg/mL, 1 mL vial, 10 count, NDC 17478-0934-01"},{"NDC":"00517-0901-25","RXCUI":"966571","textDescription":"Hydralazine injection, American Regent, 20 mg/mL, 1 mL vial, 25 count, NDC 00517-0901-25"}],"availableProduct":[{"NDC":"17478-0934-15","RXCUI":"966571","textDescription":"Hydralazine injection, Akorn, 20 mg/mL, 1 mL vial, 25 count, NDC 17478-0934-15"},{"NDC":"63323-0614-01","RXCUI":"966571","textDescription":"Hydralazine injection, Fresenius Kabi, 20 mg/mL, 1 mL vial, 25 count, NDC 63323-0614-01"},{"NDC":"39822-0500-04","RXCUI":"966571","textDescription":"Hydralazine injection, X-Gen, 20 mg/mL, 1 mL vial, 25 count, NDC 39822-0500-04"}],"lastRevisedDate":"06-Jun-2017","resupplyEstimateNote":["American Regent has hydralazine 20 mg/mL 1 mL vials on back order and the company cannot estimate a release date.","All other marketed presentations are available."],"searchString":"hydralazine injection","shortageAuthor":["Michelle Wheeler"],"shortageCreateDate":"29-Jun-2015","shortageReason":["Akorn has hydralazine injection available.","American Regent has hydralazine injection on shortage due to manufacturing delays. This product has not been available for several years.","Fresenius Kabi has hydralazine injection available.","X-Gen launched hydralazine injection in September 2015."],"shortageStatus":"Resolved","shortageTitle":"Hydralazine Injection","shortageVersion":"18","updateHistory":"Updated June 6, 2017 by Michelle Wheeler, PharmD, Drug Information Specialist. Created September 12, 2014 by Michelle Wheeler, PharmD, Drug Information Specialist. Copyright 2017, Drug Information Service, University of Utah, Salt Lake City, UT.","updatedAt":1496776133234}
+```
+
 
 
   
