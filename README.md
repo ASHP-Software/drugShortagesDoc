@@ -57,6 +57,7 @@ A drug shortage bulletin that holds all relevant information.
 ## Sample response of a drug shortage object
 ---
 * route: https://ahfs-staging.firebaseio.com/drugShortages/113/latest.json?print=pretty&auth={apiKey}
+* To request API key, contact softwaresupport@ashp.org
 * response:
 ```javascript
 {
