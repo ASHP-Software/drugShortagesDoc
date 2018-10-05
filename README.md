@@ -39,7 +39,7 @@ A drug shortage bulletin that holds all relevant information.
 
 * **shortageCreateDate**: String - Human readable timestamp for creation of this shortage data.
 
-* **shortageReason**: [String] - List of reasons that cauased this shortage. 
+* **shortageReason**: [String] - List of reasons that caused this shortage. 
 
 * **shortageStatus**: String - Status of a drug shortage. This property has an enum for defined values: 
   * "Active", "Resolved", "No Longer Available", "No Commercially Available Preparations"
