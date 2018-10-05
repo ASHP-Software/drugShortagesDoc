@@ -14,11 +14,14 @@
 ---
 ### Drug Shortage
 A drug shortage bulletin that holds all relevant information.
-* **affectedProduct** - List of prodcuts affected by this drug shortage
-  * **discontinued**: Bool - Whether this product has been discontinued by the manufacturer
+* **affectedProduct** - List of prodcuts affected by this drug shortage.
+  * **discontinued**: Bool - Whether this product has been discontinued.
   * **NDC**: String - National Drug Code identifier for this product. 
-  * **RXCUI** - RXCUI identifier for this product
+  * **RXCUI**: - RXCUI identifier for this product
+  * **textDescription**: String - Human readable text description of this product.
+* **availableProduct** - List of available products for this drug shortage.
 
+  
 
   
 
