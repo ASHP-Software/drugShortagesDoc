@@ -27,6 +27,8 @@ A drug shortage bulletin that holds all relevant information.
   
 * **lastRevisedDate**: String - Human readable time stamp of the last revision.
 
+* **patientCareImplications**: [String] - List of patient care implications.
+
 * **resupplyEstimateNote**: [String] - List of resuply estimate notes.
 
 * **safetyNote**: [String] - List of safety notes.
@@ -39,7 +41,18 @@ A drug shortage bulletin that holds all relevant information.
 
 * **shortageReason**: [String] - List of reasons that cauased this shortage. 
 
+* **shortageStatus**: String - Status of a drug shortage. This property has an enum for defined values: 
+  * "Active", "Resolved", "No Longer Available", "No Commercially Available Preparations"
   
+* **shortageTitle**: String - Title for this shortage
+
+* **shortageVersion**: String - Revision version of this shortage. This can be converted to an Integer. 
+
+* **updatedAt**: Int - Linux epoch timestamp in milliseconds of the last update. This is the best field for time based sorting.
+
+* **updateHistory**: String - Human readable update history.
+
+
 
   
 
