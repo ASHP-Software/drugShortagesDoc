@@ -19,6 +19,7 @@ A drug shortage bulletin that holds all relevant information.
   * **NDC**: String - National Drug Code identifier for this product. 
   * **RXCUI**: - RXCUI identifier for this product
   * **textDescription**: String - Human readable text description of this product.
+  
 * **availableProduct** - List of available products for this drug shortage.
 
   
