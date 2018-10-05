@@ -17,10 +17,27 @@ A drug shortage bulletin that holds all relevant information.
 * **affectedProduct** - List of prodcuts affected by this drug shortage.
   * **discontinued**: Bool - Whether this product has been discontinued.
   * **NDC**: String - National Drug Code identifier for this product. 
-  * **RXCUI**: - RXCUI identifier for this product
+  * **RXCUI**: String - RXCUI identifier for this product
   * **textDescription**: String - Human readable text description of this product.
   
 * **availableProduct** - List of available products for this drug shortage.
+  * **NDC**: String - National Drug Code identifier for this product. 
+  * **RXCUI**: String - RXCUI identifier for this product
+  * **textDescription**: String - Human readable text description of this product.
+  
+* **lastRevisedDate**: String - Human readable time stamp of the last revision.
+
+* **resupplyEstimateNote**: [String] - List of resuply estimate notes.
+
+* **safetyNote**: [String] - List of safety notes.
+
+* **searchString**: String - A string to help run search queries. 
+
+* **shortageAuthor**: [String] - List of authors for this drug shortage.
+
+* **shortageCreateDate**: String - Human readable timestamp for creation of this shortage data.
+
+* **shortageReason**: [String] - List of reasons that cauased this shortage. 
 
   
 
