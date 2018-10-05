@@ -56,7 +56,7 @@ A drug shortage bulletin that holds all relevant information.
 
 ## Sample response of a drug shortage object
 ---
-* route: /drugShortages/113/latest.json?print=pretty&auth={apiKey}
+* route: /drugShortages/113/latest.json?auth={apiKey}
 * To request an API key and licensing information, contact softwaresupport@ashp.org
 * response:
 ```javascript
