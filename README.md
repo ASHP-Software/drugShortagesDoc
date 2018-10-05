@@ -1,2 +1,4 @@
-# drugShortagesDoc
-Drug Shortages API documentation
+# Drug Shortages Documentation
+
+## Drug shortage routes
+
