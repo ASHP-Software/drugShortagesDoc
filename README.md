@@ -3,8 +3,10 @@
 ## Drug shortage routes
 ---
 
-* **/drugShortages** - This route holds all the latest version of each drug shortage.
-  * **/drugShortages/{key}/latest** - This route holds an individual drug shortage. You can assume that it will always be the latest version of the data. 
+Keep in mind that if you are making a REST API call, you need to append .json to the end of the route. You can find some sample API calls at the end of this document.
+
+* **/drugShortages** - This route holds all the latest version of each drug shortage returned as an array. The ID / key for each shortage object is the same as its index in the array. Some entries may be null, which means there is no shortage with that ID.
+  * **/drugShortages/{key}/latest** - This route holds an individual drug shortage. You can assume that it will always be the latest version of the data.
 
 
 * **/pastDrugShortages** - This route holds all the previous version of each drug shortage. Each time an editor makes a change to a drug shortage bulletin in their local content management system and commit the changes, a new versiosn of a drug shortage object is created and pushed to Firebase.
