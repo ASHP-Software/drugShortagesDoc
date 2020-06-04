@@ -191,11 +191,11 @@ A drug shortage bulletin that holds all relevant information.
 ```
 ## Sample API calls
 ---
-To get all active shortages:
+**To get all active shortages:**
 
 /drugShortages.json?print=pretty&orderBy="/latest/shortageStatus"&equalTo="Active"&auth={apiKey}
 
-To get shortages since a date:
+**To get shortages since a date (Linux Epoch format in milliseconds):**
 
 /drugShortages.json?auth={apiKey}&print=pretty&orderBy="latest/updatedAt"&startAt=1556668800000
 
