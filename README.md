@@ -189,7 +189,16 @@ A drug shortage bulletin that holds all relevant information.
 }
 
 ```
-* Note: To get all active shortages try /drugShortages.json?print=pretty&orderBy="/latest/shortageStatus"&equalTo="Active"&auth={apiKey}
-  
+## Sample API calls
+---
+To get all active shortages:
+
+/drugShortages.json?print=pretty&orderBy="/latest/shortageStatus"&equalTo="Active"&auth={apiKey}
+
+To get shortages since a date:
+
+/drugShortages.json?auth={apiKey}&print=pretty&orderBy="latest/updatedAt"&startAt=1556668800000
+
+[Full documentation](https://firebase.google.com/docs/reference/rest/database)
 
 
