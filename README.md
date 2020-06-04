@@ -199,6 +199,6 @@ A drug shortage bulletin that holds all relevant information.
 
 /drugShortages.json?auth={apiKey}&print=pretty&orderBy="latest/updatedAt"&startAt=1556668800000
 
-[Full documentation](https://firebase.google.com/docs/reference/rest/database)
+[Full API usage documentation](https://firebase.google.com/docs/reference/rest/database)
 
 
