@@ -54,6 +54,8 @@ A drug shortage bulletin that holds all relevant information.
 
 * **updateHistory**: String - Human readable update history.
 
+* **alternativeAgent**: [String] - Different drugs that are in the same therapeutic category as the drug on shortage.
+
 * **alternativeAgentTable**: [String] - List of tables in html formated String. 
 
 ## Sample response of a drug shortage object
