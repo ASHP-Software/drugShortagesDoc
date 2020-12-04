@@ -16,13 +16,13 @@ Keep in mind that if you are making a REST API call, you need to append .json to
 ---
 ### Drug Shortage
 A drug shortage bulletin that holds all relevant information.
-* **affectedProduct** - List of prodcuts affected by this drug shortage.
+* **affectedProduct** - List of prodcuts affected by this drug shortage. Affected products are the actual product on shortage (at the NDC (package size) level).
   * **discontinued**: Bool - Whether this product has been discontinued.
   * **NDC**: String - National Drug Code identifier for this product. 
   * **RXCUI**: String - RXCUI identifier for this product
   * **textDescription**: String - Human readable text description of this product.
   
-* **availableProduct** - List of available products for this drug shortage.
+* **availableProduct** - List of available products for this drug shortage.  Available products are same drug that is on shortage, but maybe in a different strength or package size.
   * **NDC**: String - National Drug Code identifier for this product. 
   * **RXCUI**: String - RXCUI identifier for this product
   * **textDescription**: String - Human readable text description of this product.
