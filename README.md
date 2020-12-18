@@ -1,5 +1,7 @@
 # ASHP Drug Shortages Documentation
 
+Note: If you are testing our the data on our staging database, we do not keep that dataset up to date like we do in our production database. The purpose of the staging database is to give you an understanding of how we structure our data.
+
 ## Drug shortage routes
 ---
 
