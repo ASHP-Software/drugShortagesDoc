@@ -205,4 +205,6 @@ A drug shortage bulletin that holds all relevant information.
 
 [Full API usage documentation](https://firebase.google.com/docs/reference/rest/database)
 
-
+## Contact
+---
+Got any questions? Contact us at softwaresupport@ashp.org
