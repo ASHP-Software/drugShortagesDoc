@@ -25,13 +25,13 @@ A drug shortage bulletin that holds all relevant information.
   * **NDC**: String - National Drug Code identifier for this product. 
   * **RXCUI**: String - RXCUI identifier for this product
   * **textDescription**: String - Human readable text description of this product.
-  * **lastChangeDate**: Int? - Time stamp in Linux epoch in milliseconds on when this product was last added. (This field is a recent enhacement and not available for all drug shortage bulletins). This field can be used to track when a product is removed also by checking the *availableProducts* field, as products transition between affectedProduct and availableProduct between bulletin versions.
+  * **lastChangeDate**: Int? - Time stamp in Linux epoch in milliseconds on when this product was last added. (This field is a recent enhacement and not available for all drug shortage bulletins). This field can be used to track when a product is removed also by checking the *availableProducts* field, as products transition between affectedProduct and availableProduct across bulletin versions.
   
-* **availableProduct** - List of available products for this drug shortage.  Available products are same drug that is on shortage, but maybe in a different strength or package size. This field can be used to track when a product is removed also by checking the *availableProducts* field, as products transition between affectedProduct and availableProduct.
+* **availableProduct** - List of available products for this drug shortage. Available products are same drug that is on shortage, but maybe in a different strength or package size. 
   * **NDC**: String - National Drug Code identifier for this product. 
   * **RXCUI**: String - RXCUI identifier for this product.
   * **textDescription**: String - Human readable text description of this product.
-  * **lastChangeDate**: Int? - Time stamp in Linux epoch in milliseconds on when this product was last added. (This field is a recent enhacement and not available for all drug shortage bulletins) This field can be used to track when a product is removed also by checking the *affectedProducts* field, as products transition between affectedProduct and availableProduct between bulletin versions. 
+  * **lastChangeDate**: Int? - Time stamp in Linux epoch in milliseconds on when this product was last added. (This field is a recent enhacement and not available for all drug shortage bulletins) This field can be used to track when a product is removed also by checking the *affectedProducts* field, as products transition between affectedProduct and availableProduct across bulletin versions. 
   
 * **lastRevisedDate**: String - Human readable time stamp of the last revision.
 
