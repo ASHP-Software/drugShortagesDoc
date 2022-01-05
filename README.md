@@ -25,13 +25,13 @@ A drug shortage bulletin that holds all relevant information.
   * **NDC**: String - National Drug Code identifier for this product. 
   * **RXCUI**: String - RXCUI identifier for this product
   * **textDescription**: String - Human readable text description of this product.
-  * **lastChangeDate**: Int - Time stamp in Linux epoch in milliseconds on when this product was last updated.
+  * **lastChangeDate**: Int? - Time stamp in Linux epoch in milliseconds on when this product was last updated.
   
 * **availableProduct** - List of available products for this drug shortage.  Available products are same drug that is on shortage, but maybe in a different strength or package size.
   * **NDC**: String - National Drug Code identifier for this product. 
   * **RXCUI**: String - RXCUI identifier for this product.
   * **textDescription**: String - Human readable text description of this product.
-  * **lastChangeDate**: Int - Time stamp in Linux epoch in milliseconds on when this product was last updated.
+  * **lastChangeDate**: Int? - Time stamp in Linux epoch in milliseconds on when this product was last updated.
   
 * **lastRevisedDate**: String - Human readable time stamp of the last revision.
 
