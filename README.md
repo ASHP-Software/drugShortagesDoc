@@ -19,15 +19,18 @@ The base url for our staging server with old data for testing is: https://ahfs.f
 ## Objects
 ---
 ### Drug Shortage
-A drug shortage bulletin that holds all relevant information.
-* **affectedProduct** - List of prodcuts affected by this drug shortage. Affected products are the actual product on shortage (at the NDC (package size) level).
+A version of drug shortage bulletin that holds all relevant information. You can always access the latest version of the drug shortage bulleting by using the drugShortages/latest route.
+
+* **affectedProduct**: [Object] - List of prodcuts affected by this drug shortage. Affected products are the actual product on shortage (at the NDC (package size) level).
   * **discontinued**: Bool - Whether this product has been discontinued.
   * **NDC**: String - National Drug Code identifier for this product. 
   * **RXCUI**: String - RXCUI identifier for this product
   * **textDescription**: String - Human readable text description of this product.
   * **lastChangeDate**: Int? - Time stamp in Linux epoch in milliseconds on when this product was last added. (This field is a recent enhacement and not available for all drug shortage bulletins). This field can be used to track when a product is removed also by checking the *availableProducts* field, as products transition between affectedProduct and availableProduct across bulletin versions.
+
+A product will go from affectedProduct list to the availableProduct list accross drug shortage bulletin versions. It is also possible to go from the availableProduct list back to the affectedProduct list if the product is in shortage again over time.   
   
-* **availableProduct** - List of available products for this drug shortage. Available products are same drug that is on shortage, but maybe in a different strength or package size. 
+* **availableProduct**: [Object] - List of available products for this drug shortage. Available products are same drug that is on shortage, but maybe in a different strength or package size. 
   * **NDC**: String - National Drug Code identifier for this product. 
   * **RXCUI**: String - RXCUI identifier for this product.
   * **textDescription**: String - Human readable text description of this product.
