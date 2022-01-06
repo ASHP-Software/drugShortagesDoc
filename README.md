@@ -34,7 +34,8 @@ A version of drug shortage bulletin that holds all relevant information. You can
   * **NDC**: String - National Drug Code identifier for this product. 
   * **RXCUI**: String - RXCUI identifier for this product.
   * **textDescription**: String - Human readable text description of this product.
-  * **lastChangeDate**: Int? - Time stamp in Linux epoch in milliseconds on when this product was last added. (This field is a recent enhacement and not available for all drug shortage bulletins) A product may go from available to affected, when that happens this field can be used to track when a product is transitioned by checking the lastChangeDate in the *affectedProducts* field. 
+  * **lastChangeDate**: Int? - Time stamp in Linux epoch in milliseconds on when this product was last added. (This field is a recent enhacement and not available for all drug shortage bulletins) A product may go from available to affected, when that happens this field can be used to track when a product is transitioned by checking the lastChangeDate in the *affectedProducts* field.
+  * discontinued: String? - Whether this product had been discontinued by the manufacturer. The field is type String, but can only be "true" or "false" so it can be safely casted to Boolean?.  
   
 * **lastRevisedDate**: String - Human readable time stamp of the last revision.
 
